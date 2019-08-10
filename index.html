@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Securatec Lanka</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <section class="landing">
+      <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              LOGO
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li> <a href="#"><i class="fa fa-search"></i></a> </li>
+                                   
+                              </ul>
+                        </div>
+                        
+                  </nav>
+                <div class="avatar-image">
+                        <img src="images/home_avante_security.jpg" alt="">
+                  </div>
+                  <div class="main-name">
+                              <h2>SECURATEC</h2>
+                  </div>
+                  <div class="typewriter">
+                              <h1>SECURATEC WE ARE
+                                <span class="txt-type" data-wait="3000" data-words='["BEST", "PROFFESIONAL", "TRUSTFULL"]'></span>
+                              </h1>
+                  </div>
+            </header>
+            
+      </div>
+</section>
+      <div class="content">
+            <p>PEOPLE  |  KNOWLEDGE  |  TECHNOLOGY</p>
+            <h3>We are an elite security firm specializing in identifying risk and developing customized solutions for high profile clients.</h3>
+      </div>
+
+
+<section class="view2">
+      <div class="row">
+            <div class="column">
+                  <h2>Your home</h2>
+                  <p>We protect what matters to you with intelligent protection, best in class security products, and tracking technology to eliminate any potential threat.</p>
+            </div>
+            <div class="column">
+                  <h2>Your business</h2>
+                  <p>Remediation plans and in-depth defence implementation will secure your business from every facet. We focus on reducing risks, so you can focus on increasing profitability.</p>
+            </div>
+            <div class="column">
+                  <h2>Your assets</h2>
+                  <p>We protect what matters to you with intelligent protection, best in class security products, and tracking technology to eliminate any potential threat.</p>
+            </div>
+      </div>
+</section>
+
+<section class="view3">
+      <div class="mid-image">
+            <img src="images/cctv.png" alt="">
+      </div>
+      <div class="text3">
+            <h1>Our Mission</h1>
+            <p>Our belief is that security is more than just any one solution. Our mission is to make the world a safer place by providing technology-enabled solutions, built upon our unwavering commitment to using elite personnel and technology. We are your trusted partner with the ability to address risks and obtain peace of mind.</p>
+      </div>
+</section>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+      </script>
+      <script src="js/typewriter.js"></script>
+
+</body>
+</html>
